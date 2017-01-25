@@ -1,2 +1,2 @@
-# PRG04-assignments
-Inlever opdrachten voor PRG04
+# PRG04 week 2
+De opdracht voor week 2

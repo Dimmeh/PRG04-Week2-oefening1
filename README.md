@@ -8,7 +8,6 @@ Een class in javascript ziet er als volgt uit:
 class Car {
   constructor() {
     console.log("a car was created!");
-    this.color;
     this.speed;
   }
 
@@ -22,17 +21,17 @@ class Car {
 
 - Test het project met de console
 - Maak meerdere instances van de Car class
+- Geef de class eigenschappen voor kleur en snelheid
 - Geef elke instance zijn eigen kleur en snelheid
 
 ### Opdracht
 
 - Voeg een stop functie toe die de speed van de auto op 0 zet
-- Verander de drive functie zodanig dat je een nieuwe snelheid kan meegeven als parameter
+- Voeg een drive functie toe waarmee je een nieuwe snelheid kan meegeven als parameter
+- Roep de functies aan
 
 ### Opdracht
 
 - Geef de startwaarden van de instance door via de constructor, zodat je als volgt een instance kan aanmaken: 
 
 `var c = new Car('red', 120);`
-
-Test de code met de console

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>PRG04 Week 2 Opdracht 1 : Classes en Instances</title>
+</head>
+
+<body>
+    <h1 id="prg04week2oefening1">PRG04 week 2 Oefening 1</h1>
+
+    <h2 id="classeseninstances">Classes en instances</h2>
+
+    <p>Een class in javascript ziet er als volgt uit:</p>
+
+    <pre><code>class Car {
+      constructor() {
+        console.log("a car was created!");
+        this.speed;
+      }
+
+      drive() {
+        console.log('I am driving at speed ', this.speed);
+      }
+    }
+    </code></pre>
+
+    <h3 id="opdracht">Opdracht</h3>
+
+    <ul>
+    <li>Test het project met de console</li>
+    <li>Maak meerdere instances van de Car class</li>
+    <li>Geef de class eigenschappen voor kleur en snelheid</li>
+    <li>Geef elke instance zijn eigen kleur en snelheid</li>
+    </ul>
+
+    <h3 id="opdracht-1">Opdracht</h3>
+
+    <ul>
+    <li>Voeg een stop functie toe die de speed van de auto op 0 zet</li>
+    <li>Verander de drive functie zodanig dat je een nieuwe snelheid kan meegeven als parameter</li>
+    <li>Roep de functies aan</li>
+    </ul>
+
+    <h3 id="opdracht-2">Opdracht</h3>
+
+    <ul>
+    <li>Geef de startwaarden van de instance door via de constructor, zodat je als volgt een instance kan aanmaken: </li>
+    </ul>
+
+    <p><code>var c = new Car('red', 120);</code></p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -8,7 +8,7 @@ Een class in javascript ziet er als volgt uit:
 class Car {
   constructor() {
     console.log("a car was created!");
-    this.speed;
+    this.speed = 120;
   }
 
   drive() {
